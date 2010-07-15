@@ -9,19 +9,19 @@
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://smiy.sourceforge.net/co/examples/N3/webcounter_-_example.n3>
+<http://smiy.sourceforge.net/co/examples/N3/webpagecounter_-_example.n3>
       rdf:type bibo:Document ;
       dc:creator <http://foaf.me/zazi#me> ;
       dc:date "2010-07-15T11:22:52+01:00"^^xsd:dateTime ;
       dc:description """This document includes an example of the counter concept of the Counter Ontology."""@en ;
       rdfs:seeAlso <http://purl.org/ontology/co/counterontology.html> ;
-      dc:title "Web Counter Example"@en .
+      dc:title "Webpage Counter Example"@en .
 
-ex:WebCounter a co:Counter ;
-	  dc:title "Web Counter"^^xsd:string ;
+ex:WebpageCounter a co:Counter ;
+	  dc:title "Webpage Counter"^^xsd:string ;
 	  dc:creator <http://foaf.me/zazi#me> ;
 	  dc:description "A counter of a specific web page"^^xsd:string ;
 	  co:count "10"^^xsd:integer .
 	  
 <http://smiy.wordpress.com/> a bibo:Document ;
-	  co:counter ex:WebCounter .	
+	  co:counter ex:WebpageCounter .	
