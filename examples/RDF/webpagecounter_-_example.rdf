@@ -13,7 +13,7 @@
     <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Webpage Counter</dc:title>
     <co:count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</co:count>
   </co:Counter>
-  <bibo:Document rdf:about="http://smiy.sourceforge.net/co/examples/N3/webpagecounter_-_example.rdf">
+  <bibo:Document rdf:about="http://smiy.sourceforge.net/co/examples/RDF/webpagecounter_-_example.rdf">
     <dc:creator rdf:resource="http://foaf.me/zazi#me"/>
     <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-07-15T11:22:52+01:00</dc:date>
     <dc:description xml:lang="en">This document includes an example of the counter concept of the Counter Ontology.</dc:description>
